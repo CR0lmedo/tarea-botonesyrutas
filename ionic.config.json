@@ -1,0 +1,7 @@
+{
+  "name": "tarea botones y rutas primera clase",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

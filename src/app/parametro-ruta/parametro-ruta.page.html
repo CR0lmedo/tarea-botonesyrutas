@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Datos de producto</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-button color="success" size="" [routerLink]="['/inicio']">volver</ion-button>
+<ion-content>
+
+  <!----------- card ---------->
+  <ion-card>
+    <ion-card-title>{{ nombre }}</ion-card-title>
+    <ion-card-subtitle>{{ tipo }}</ion-card-subtitle>
+    <ion-card-content>
+      <img [src]="[ imagen ]"alt="" width="200px" height="200px">
+      precio : {{ precio }}
+      peso   : {{peso}}
+    </ion-card-content>
+
+    <ion-card-title>
+      Precio         : {{ precio }}
+    </ion-card-title>
+  </ion-card>
+   <!----------- card ----------->
+
+</ion-content>

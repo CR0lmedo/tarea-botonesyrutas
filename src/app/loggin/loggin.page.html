@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Loggin</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div style="color: rgba(21, 255, 0, 0.996);" id="container">
+    <strong>Botones UwU</strong>
+    <ion-card >
+      <ion-button color="success" size="" [routerLink]="['/home']">home</ion-button>
+      <ion-button color="success" size="" [routerLink]="['/inicio']">productos</ion-button>
+      <ion-button color="secondary" size="" [routerLink]="['/loggin']">Login</ion-button>
+      <ion-button color="success" size="" [routerLink]="['/registro']">Registro</ion-button>
+      <ion-button color="success" size="" [routerLink]="['/acerca-de']">Acerca de...</ion-button>
+      <ion-button color="success" size="" [routerLink]="['/contactos']">Contactos</ion-button>
+    </ion-card>
+  </div>
+  <ion-card>
+    <h1>==inicio session==</h1>
+    <ion-item>
+      <ion-label color="primary">nombre: </ion-label>
+      <ion-input placeholder="...."></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label color="primary">Clave: </ion-label>
+      <ion-input placeholder="...."></ion-input>
+    </ion-item>
+    
+  </ion-card>
+
+</ion-content>
